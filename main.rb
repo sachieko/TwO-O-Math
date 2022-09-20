@@ -47,6 +47,7 @@ while !game.winner do
   puts "----- NEW TURN -----" unless game.winner
 end
 puts "#{game.current_player.name} wins with a score of #{game.current_player.health}/#{game.current_player.health_total}"
+sleep(2)
 puts "------- GAME OVER -------"
 puts "Good bye!"
 
